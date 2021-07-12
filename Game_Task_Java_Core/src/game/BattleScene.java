@@ -22,9 +22,8 @@ public class BattleScene {
                     isFightEnded = makeHit(hero, monster, fightCallback);
                 }
                 try {
-                    //Чтобы бой не проходил за секунду, сделаем имитацию работу, как если бы
-                    //у нас была анимация
-                    Thread.sleep(1000);
+                    //Имитация боя в пространстве и времени
+                    Thread.sleep(500);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -45,7 +44,7 @@ public class BattleScene {
             System.out.println(String.format("%s Нанес удар в %d единиц!", attacker.getName(), hit));
             System.out.println(String.format("У %s осталось %d единиц здоровья...", defender.getName(), defenderHealth));
         } else {
-            //Если атакующий промахнулся(то есть урон не 0) выводим это сообщение
+            //Если атакующий промахнулся сообщаем
             System.out.println(String.format("%s промахнулся!", attacker.getName()));
         }
         if (defenderHealth <= 0 && defender instanceof Hero) {

@@ -10,7 +10,7 @@ public abstract class FantasyCharacter implements Fighter{
 
     private int xp;
     private int gold;
-    //Коснтруктор
+    //Конструктор
     public FantasyCharacter(String name, int healthPoints, int strength, int dexterity, int xp, int gold) {
         this.name = name;
         this.healthPoints = healthPoints;
@@ -29,40 +29,46 @@ public abstract class FantasyCharacter implements Fighter{
     public String getName() {
         return name;
     }
-    //Геттеры и сеттеры
+
     public void setName(String name) {
         this.name = name;
     }
+
     public int getHealthPoints() {
         return healthPoints;
     }
     public void setHealthPoints(int healthPoints) {
         this.healthPoints = healthPoints;
     }
+
     public int getStrength() {
         return strength;
     }
     public void setStrength(int strength) {
         this.strength = strength;
     }
+
     public int getDexterity() {
         return dexterity;
     }
     public void setDexterity(int dexterity) {
         this.dexterity = dexterity;
     }
+
     public int getXp() {
         return xp;
     }
     public void setXp(int xp) {
         this.xp = xp;
     }
+
     public int getGold() {
         return gold;
     }
     public void setGold(int gold) {
         this.gold = gold;
     }
+
     private int getRandomValue() {
         return (int) (Math.random() * 100);
     }
