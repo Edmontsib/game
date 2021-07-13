@@ -1,21 +1,19 @@
 package game;
 
-import game.BattleScene;
 import personage.Goblin;
 import personage.Skeleton;
 import personage.Hero;
+import personage.PotionSeller;
 import entity.FantasyCharacter;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Realm {
-    //Класс для чтения введенных строк из консоли
+public class Game {
+
     private static BufferedReader br;
-    //Игрок должен хранится на протяжении всей игры
     private static FantasyCharacter player = null;
-    //Класс для битвы можно не создавать каждый раз, а переиспользовать
     private static BattleScene battleScene = null;
 
     public static void main(String[] args) {
@@ -42,15 +40,17 @@ public class Realm {
                     0
             );
             System.out.println(String.format("Спасти наш мир от драконов вызвался %s! Да будет его броня крепка и бицепс кругл!", player.getName()));
-            //Метод для вывода меню
+
             printNavigation();
         }
-        //Варианты для команд
+
         switch (string) {
             case "1": {
-                System.out.println("Торговец еще не приехал");
-                printNavigation();
-                command(br.readLine());
+                //System.out.println("Торговец еще не приехал");
+                //printNavigation();
+                saveSeller();
+                printNavigationSeller();
+                //commandBuy(br.readLine());
             }
             break;
             case "2": {
@@ -69,15 +69,48 @@ public class Realm {
                 command(br.readLine());
             }
         }
-        //Снова ждем команды от пользователя
+
         command(br.readLine());
+    }
+
+    private static void commandBuy(String string) throws IOException {
+
+        switch (string) {
+            case "1": {
+                if (player.getGold() >= 10) {
+                    System.out.println("Почти купил.."); // player.setHealthPoints(player.getHealthPoints())+20);
+                } else {
+                    System.out.println(String.format("Извени друг, у тебя не хватает золотых для покупки, приходи когда заработаешь!"));
+                    printNavigation();
+                    command(br.readLine());
+                }
+
+            }
+
+            case "2": {
+                if (player.getGold() >= 10) {
+                    System.out.println("Почти купил..");
+                } else {
+                    System.out.println(String.format("Извени друг, у тебя не хватает золотых для покупки, приходи когда заработаешь!"));
+                    printNavigation();
+                    command(br.readLine());
+                }
+
+            }
+
+            case "3":
+                System.out.println(String.format("Заходи еще %s!", player.getName()));
+                printNavigation();
+                command(br.readLine());
+        }
+        commandBuy(br.readLine());
     }
 
     private static void commitFight() {
         battleScene.fight(player, createMonster(), new FightCallback() {
             @Override
             public void fightWin() {
-                System.out.println(String.format("%s победил! Теперь у вас %d опыта и %d золота, а также осталось %d едениц здоровья.", player.getName(), player.getXp(), player.getGold(), player.getHealthPoints()));
+                System.out.println(String.format("%s победил! Теперь у вас %d опыта и %d золота, а также осталось %d едениц здоровья.", player.getName(), player.getSkill(), player.getGold(), player.getHealthPoints()));
                 System.out.println("Желаете продолжить поход или вернуться в город? (да/нет)");
                 try {
                     command(br.readLine());
@@ -93,10 +126,29 @@ public class Realm {
         });
     }
 
+    private static void saveSeller() {
+        System.out.println(String.format("Приветствую тебя %s! Что желаешь приобрести в моей лавке,", player.getName()));
+        System.out.println("В наличии есть зелье для повышения ловкости, аптечка");
+        printNavigationSeller();
+        System.out.println(String.format("%s у тебя %d опыта и %d золота, а также осталось %d едениц здоровья.", player.getName(), player.getSkill(), player.getGold(), player.getHealthPoints()));
+        try {
+            commandBuy(br.readLine());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     private static void printNavigation() {
         System.out.println("Куда вы хотите пойти?");
         System.out.println("1. К Торговцу");
         System.out.println("2. В темный лес");
+        System.out.println("3. Выход");
+    }
+
+    private static void printNavigationSeller() {
+        System.out.println("Что выберешь?");
+        System.out.println("1. Аптечка +20% - 10 золотых");
+        System.out.println("2. Зелье, повысить ловкость на 20 ед. - 10 золотых");
         System.out.println("3. Выход");
     }
 
@@ -124,6 +176,7 @@ public class Realm {
 
     interface FightCallback {
         void fightWin();
+
         void fightLost();
     }
 }

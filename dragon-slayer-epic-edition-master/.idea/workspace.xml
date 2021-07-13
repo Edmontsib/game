@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f726b251-2359-4080-9b40-a314d2734837" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/CatAndDog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/out/production/CatAndDog/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/out/production/CatAndDog/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/out/production/CatAndDog/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/out/production/CatAndDog/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/out/production/CatAndDog/DynamicArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/out/production/CatAndDog/Loader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/out/production/CatAndDog/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/out/production/CatAndDog/MyClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/out/production/CatAndDog/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/out/production/CatAndDog/Sorted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/src/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/src/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/src/DynamicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/src/Loader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/src/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/src/STWExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CatAndDog/src/Sorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IdeaProjects.7z" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReadBook_Java/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReadBook_Java/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReadBook_Java/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReadBook_Java/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReadBook_Java/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReadBook_Java/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReadBook_Java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReadBook_Java/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReadBook_Java/ReadBook_Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReadBook_Java/out/production/ReadBook_Java/HellooWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReadBook_Java/out/production/ReadBook_Java/Party.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReadBook_Java/src/HellooWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DragonSlayerEpicEdition.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dragon-slayer-epic-edition-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dragon-slayer-epic-edition-master/domain/BattleScene.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dragon-slayer-epic-edition-master/domain/Realm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dragon-slayer-epic-edition-master/domain/Realm$FightCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dragon-slayer-epic-edition-master/domain/Realm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dragon-slayer-epic-edition-master/domain/monsters/lvl1/Goblin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dragon-slayer-epic-edition-master/domain/monsters/lvl1/Skeleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dragon-slayer-epic-edition-master/domain/npc/Merchant$Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dragon-slayer-epic-edition-master/domain/npc/Merchant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dragon-slayer-epic-edition-master/domain/player/Hero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dragon-slayer-epic-edition-master/entity/FantasyCharacter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dragon-slayer-epic-edition-master/entity/Fighter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dragon-slayer-epic-edition-master/entity/Seller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/FantasyCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Seller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/BattleScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/Realm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personage/Goblin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personage/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personage/Merchant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personage/Skeleton.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1vDF2nDUTZBqqEzvQQK4rhkhpOj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../visualvm_207/bin/visualvm.exe" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Realm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="game.Realm" />
+      <module name="dragon-slayer-epic-edition-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Realm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f726b251-2359-4080-9b40-a314d2734837" name="Default Changelist" comment="" />
+      <created>1626088549485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626088549485</updated>
+      <workItem from="1626088550796" duration="1395000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

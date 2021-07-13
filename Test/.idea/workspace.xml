@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc084d94-459f-42a4-bd3a-3966c473a6ef" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1bPKnl8JeOse8SG4EtA600YFwYp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.37663755" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc084d94-459f-42a4-bd3a-3966c473a6ef" name="Default Changelist" comment="" />
+      <created>1588528457535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588528457535</updated>
+      <workItem from="1588528460140" duration="79000" />
+      <workItem from="1588690926065" duration="49000" />
+      <workItem from="1588691030325" duration="624000" />
+      <workItem from="1588833253672" duration="736000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="161" key="#Plugins" timestamp="1588691050985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="161" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1588691050985" />
+    <state x="301" y="97" width="1237" height="851" key="#Project_Structure" timestamp="1588528518995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="301" y="97" width="1237" height="851" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1588528518995" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588833322891">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588833322891" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588690935357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588690935357" />
+    <state x="740" y="275" width="440" height="582" key="FileChooserDialogImpl" timestamp="1588528534500">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" width="440" height="582" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588528534500" />
+    <state x="302" y="143" key="new project wizard" timestamp="1588528509407">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="302" y="143" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1588528509407" />
+  </component>
+</project>
